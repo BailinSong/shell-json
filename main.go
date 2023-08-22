@@ -12,6 +12,7 @@ func main() {
 
 	if len(os.Args) <= 1 {
 		printHelp()
+		GitHubSoftware()
 		return
 	}
 
@@ -56,4 +57,15 @@ Usage: Provide JSON input and command-line arguments.
             key1 output {"key2": "value2","key3": "value3"}
             key key1.key2 output value	value2`)
 
+}
+
+func GitHubSoftware() {
+	fmt.Print(`
+
+This is a simple command-line tool for extracting specified key values from JSON data.
+You can input JSON data through standard input and use command line arguments to specify the key path to extract.
+The output will be formatted according to the given key path.
+GitHub repository address: https://github.com/BailinSong/shell-json
+
+`)
 }
