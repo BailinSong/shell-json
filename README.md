@@ -40,7 +40,7 @@ This is a simple command-line tool written in Go for extracting specified key va
 
 
 6. Check the formatted output.
-  ```sh
+   ```sh
    value subvalue    value4
    ```
 
