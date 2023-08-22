@@ -48,7 +48,7 @@ func printHelp() {
 	fmt.Println(
 		`
 Usage: Provide JSON input and command-line arguments.
-    Example: echo '{"key": "value","key1": {"key2": "value2","key3": "value3"},"key4":["value4","value5","value6","value7"]}' | json <keyPath> [... <keyPath>]
+    Example: echo '{"key": "value","key1": {"key2": "value2","key3": "value3"},"key4":["value4","value5","value6","value7"]}' | json <keyPath[ ...[keyPath]]>
     <keyPath>    json key path
         Example:
             key output value
