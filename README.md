@@ -35,13 +35,14 @@ This is a simple command-line tool written in Go for extracting specified key va
 
    ```sh
    echo '{"key": "value", "nested": {"subkey": "subvalue"},"key4":["value4","value5","value6","value7"]}' | ./shell-json <keyPath[ ...[keyPath]]>
-   ./shell-json key nested.subkey key4.[0] 
-   value subvalue    value4
-   
+   ./shell-json key nested.subkey key4.[0]
    ```
 
 
 6. Check the formatted output.
+  ```sh
+   value subvalue    value4
+   ```
 
 ## GitHub Repository
 
