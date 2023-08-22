@@ -32,10 +32,9 @@ This is a simple command-line tool written in Go for extracting specified key va
    ```
 
 5. Run the tool by providing JSON data via stdin and specifying the key path as command line arguments. For example:
-
+   `./shell-json <keyPath[ ...[keyPath]]>`
    ```sh
-   echo '{"key": "value", "nested": {"subkey": "subvalue"},"key4":["value4","value5","value6","value7"]}' | ./shell-json <keyPath[ ...[keyPath]]>
-   ./shell-json key nested.subkey key4.[0]
+   echo '{"key": "value", "nested": {"subkey": "subvalue"},"key4":["value4","value5","value6","value7"]}' | ./shell-json key nested.subkey key4.[0]
    ```
 
 
